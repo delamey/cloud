@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9967dd8-b746-429f-9d29-a473811eec79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,7 +62,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
+            <state relative-caret-position="-236">
               <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             </state>
           </provider>
@@ -313,7 +312,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606051141544" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606053332004" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -470,7 +469,7 @@
       <workItem from="1605600122055" duration="3919000" />
       <workItem from="1606022857487" duration="210000" />
       <workItem from="1606032984659" duration="155000" />
-      <workItem from="1606035543950" duration="5005000" />
+      <workItem from="1606035543950" duration="5249000" />
     </task>
     <task id="LOCAL-00001" summary="变成war包">
       <created>1606042705689</created>
@@ -486,11 +485,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606050012787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改maven">
+      <created>1606052808556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606052808556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56092000" />
+    <option name="totallyTimeSpent" value="56336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +587,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="变成war包" />
     <MESSAGE value="去除内嵌tomcat，增加servlet和插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除内嵌tomcat，增加servlet和插件" />
+    <MESSAGE value="修改maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改maven" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -984,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
+        <state relative-caret-position="-236">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
