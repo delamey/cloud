@@ -1,0 +1,76 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq",
+      "type": "delamey.mq.RocketMQProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "defaultValue": 0,
+      "name": "suning.rocketmq.consumer-batch-max-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "defaultValue": false,
+      "name": "suning.rocketmq.consumer-broadcasting",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.consumer-group-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.consumer-instance-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "defaultValue": false,
+      "name": "suning.rocketmq.enable-history-consumer",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "defaultValue": false,
+      "name": "suning.rocketmq.enable-order-consumer",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.namesrv-addr",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.producer-group-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.producer-instance-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.producer-tran-instance-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.subscribe",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "delamey.mq.RocketMQProperties",
+      "name": "suning.rocketmq.transaction-producer-group-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
