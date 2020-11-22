@@ -11,3 +11,6 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）。
       #defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  server:
+    eviction-interval-timer-in-ms: 3000    #设置eureka剔除服务的时间间隔
+
