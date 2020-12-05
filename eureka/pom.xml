@@ -11,7 +11,7 @@
 
     <artifactId>eureka</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <dependencies>
         <!--eureka-server服务端 -->
         <dependency>
@@ -27,10 +27,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <!-- 去除内嵌tomcat -->
+            &lt;!&ndash; 去除内嵌tomcat &ndash;&gt;
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
@@ -50,7 +50,7 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
     </dependencies>
     <build>
         <plugins>
@@ -85,10 +85,10 @@
                     </resources>
                 </configuration>
             </plugin>
-            <plugin>
+           <!-- <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.0.0</version>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>
